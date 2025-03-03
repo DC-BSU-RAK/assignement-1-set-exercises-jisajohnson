@@ -15,19 +15,67 @@ h1 {
 p {
     text-align: center;
 }
+ul {
+    list-style: square;
+}
+ol {
+    list-style: decimal;
+}
+ol li {
+    margin-bottom: 10px;
+}
 body {
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-right: 200px;
-  margin-left: 200px;
+  margin-right: 100px;
+  margin-left: 100px;
   font-size: 100%;
   font-size: 1.50em;
 }
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:rgb(228, 93, 40);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 </style> 
-<body style="background-color:#FFD580 ";>
+<body style="background-color:#FFD580";>
 <header>
-<h1>Chilli Chicken</h1> <!--h1 tag is used as the main heading, gives more bolder look-->
-</header> <!--The header tag is used to for the headings-->
+<h1><b>Chilli Chicken</b></h1> <!--h1 tag is used as the main heading, gives more bolder look-->
+</header> <!--The header tag is used for the headings-->
 <img src="https://www.yummytummyaarthi.com/wp-content/uploads/2023/03/chilli-chicken-dry-1.jpeg" style="display: block; margin: auto;" height="300" width="500">
 <p>Originally from a Chinese restaurant in India, chilli chicken is an Indian-Chinese cuisine. <br>
     It is well-known for having a sweet and spicy flavor that many Indians enjoy.<br>
@@ -80,5 +128,9 @@ body {
     <li>Add the crisp golden chicken into the sauces and Mix it well. </li>
     <li>Once that is done, pour it in a dish and Enjoy! &#x1F60B;</li>
 </ol>
+
+<div class="button" style="vertical-align:right">
+    <button class="button" style="vertical-align:center" onClick="window.print()"><span>Print this Recipe </span></button>
+</div>
 </body>
 </html>
