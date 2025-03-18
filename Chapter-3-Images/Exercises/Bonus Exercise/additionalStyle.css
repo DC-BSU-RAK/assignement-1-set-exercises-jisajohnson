@@ -1,0 +1,22 @@
+div.A{
+    border-style: 5px solid;
+    border-color: rgba(138,42,227,255);
+    box-shadow: 10px 10px 7px 1px rgba(239,13,37,255);   /* Gives red shadow effect towards the bottom right */
+}
+
+div.B{
+    border-color: rgba(0,255,1,255);
+    box-shadow: 10px 10px 5px black inset;  /*gives black shadow effect from top left */
+}
+
+div.C{
+    border-color: rgba(255,139,0,255);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 0 10px rgba(0,0,254,255), 0 0 0 20px rgba(254,0,0,255), 0 0 0 30px rgba(0,128,1,255); /* using shadow property, it gives multiple borders to the box */
+}
+
+div.D{
+    border-color: rgba(178,34,34,255);
+    text-shadow: 5px 5px 1px black; /* gives the text the black shadow effect */
+}
