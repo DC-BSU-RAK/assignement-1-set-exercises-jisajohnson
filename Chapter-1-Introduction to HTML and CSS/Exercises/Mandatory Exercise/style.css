@@ -1,0 +1,96 @@
+body {
+    font-family: Garamond, serif;  /* New Font for the body */
+} 
+
+h1 {
+    text-align: center; /*Aligns the heading to the middle */
+}
+
+p {
+    text-align: center; /* Aligns the intro to the middle */
+}
+
+ul {
+    list-style: square; /* Changes the default shape of bullets to square */
+}
+
+ol {
+    list-style: decimal; /* Used the default style for ordered list*/
+}
+
+ol li {
+    margin-bottom: 10px; /* Spacing between the ordered list */
+}
+
+body {
+  font-size: 100%;
+  font-size: 1.50em;  /* Size of the font for the body*/
+}
+  
+nav {
+  background-color: #713020; 
+  padding: 10px;  
+  display: flex; 
+  justify-content: center; 
+}          /* Background for the navigation, spacing, display and has been centered */
+
+nav a {
+  text-decoration:none;
+  color: white; 
+  margin: 0 15px; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+} /* This is for the text in the navigation bar */
+
+nav a:hover {
+  background-color: rgb(235, 190, 135); /* This is the animation when we press the item in the navigation bar */
+}
+
+section{
+  border: 5px solid rgb(255, 81, 0);
+  padding: 25px;
+  margin: 20px;
+  background-color: hsla(29, 76%, 56%, 0.996);
+  border-radius: 30px;
+} /* Section background & border colour also the spacing between them */
+
+.button {
+  display: inline;
+  border-radius: 4px;
+  background-color:rgb(228, 93, 40);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: right;
+} /* This is the decoration for the print button */
+  
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; 
+} /* For interactive effect */
+  
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+} /* This is for the arrows */
+  
+.button:hover span {
+  padding-right: 25px;
+} /* when the mouse is hovering over it */ 
+  
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+} /* Aftereffects when the hovering has stopped */ 
