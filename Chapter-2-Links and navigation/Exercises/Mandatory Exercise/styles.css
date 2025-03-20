@@ -1,0 +1,43 @@
+h1{
+  text-align: center;
+  font-family: cursive; /* aligned the heading to the center, changed the font and colour */
+  color: #202d71;
+} 
+
+nav {
+  background-color: #202d71; 
+  padding: 10px; 
+  display: flex; 
+  justify-content: center;  /* size, bg colour and made the contents in the nav bar to the center  */
+}
+
+nav a {
+  text-decoration:none;
+  color: white; 
+  margin: 0 15px; 
+  padding: 5px 10px; 
+  border-radius: 5px; /* For the text inside the nav bar and the spacing */
+}
+
+nav a:hover {
+  background-color: skyblue; /* when we hover through the nav bar the colour changes when we are about to press */
+}
+
+body{
+  background-image:url(https://i.pinimg.com/736x/3b/a8/b0/3ba8b0f248b133ef9c14ffce2cce01cd.jpg);
+  font-family: cursive;
+  color: #202d71;
+  font-size: 18px; /* gave a background image, changed the font, colour and font size */
+}
+
+hr{
+  border:1px solid #202d71; /* changed the colour and size of the hr tag */
+}
+
+section{
+  border: 5px solid darkblue;
+  padding: 25px;
+  margin: 20px;
+  background-color: hsla(187, 100%, 48%, 0.8);
+  border-radius: 30px; /* sections have borders and opacity feel wher the user can see a small bit of the background image */
+}
