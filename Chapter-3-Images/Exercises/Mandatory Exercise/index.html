@@ -3,33 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Types of Night Sky</title> 
+    <title>Types of Night Sky</title> <!--Title of the page-->
 <style>
+    body{
+        text-align: center;  
+    } 
+    
     .image img {
-        display: inline-block;       
+        display: inline-block;   
         margin: 20px;
         text-align: center;
     }  
 
     .image img.aurora-filter {
-        filter: brightness(-2.0) contrast(1.5);
+        filter:hue-rotate(20deg) saturate(1.5) contrast(1.6);
+    }
+
+    .image img.milkyway-filter {
+        filter: grayscale(80%) brightness(1.1) contrast(1.2);
+    }
+
+    .image img.meteor-filter {
+        filter: sepia(80%) blur(1px) brightness(1.05);
+    }
+
+    div{
+        border: 3px solid black;
+        width:600px;
+        padding: 25px;
+        margin: 20px auto;
+        border-radius: 20px;
     }
 </style> <!--Inline styles-->
+<!--Comment on style tag
+    1. the body is aligned to the center
+    2. filters used for aurora image
+    3. filters used for milkyway image
+    4. filters used for meteor image
+    5. div tag is used to give borders for the image-->
 </head>
 <body>
 <h1>Beautiful Night Skies</h1> <!--Heading for the page-->
 <hr>
+
 <div class="image">
-<img src="aurorasky.jpg" title="Northern Lights" class="aurora-filter" height="300" width="500"> <!--Edited Images-->
-<p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/36334551@N00/150410999">Northern Lights, Greenland</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/36334551@N00">nick_russill</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.</p> <!--Image License-->
+<img src="images/aurorasky.jpg" title="Northern Lights" class="aurora-filter" height="300" width="500"> <!--Edited Images-->
+<figcaption><p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/36334551@N00/150410999">Northern Lights, Greenland</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/36334551@N00">nick_russill</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0</a>.</p></figcaption><!--Image License-->
 </div>
+
 <div class="image">
-<img src="milkyway.jpg" title="Milky Way Sky" class="milkyway-filter" height="300" width="500"> <!--Edited Images-->
-<p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/50663863@N02/32652220857">Reflection Canyon Under MilkyWay Arch</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/50663863@N02">Jaykhuang</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.</p> <!--Image License-->
+<img src="images/milkyway.jpg" title="Milky Way Sky" class="milkyway-filter" height="300" width="500"> <!--Edited Images-->
+<figcaption><p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/50663863@N02/32652220857">Reflection Canyon Under MilkyWay Arch</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/50663863@N02">Jaykhuang</a> is licensed under <a rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/2.0/?ref=openverse">CC BY 2.0</a>.</p> </figcaption><!--Image License-->
 </div>
+
 <div class="image">
-<img src="meteorshowers.jpg" title="Meteor Showers" class="meteor-filter" height="300" width="500"> <!--Edited Images-->
-<p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/115357548@N08/20713070995">Perseid Meteor Shower over the Ocotillo Patch; 8/12/15</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/115357548@N08">Joshua Tree National Park</a> is marked with <a rel="noopener noreferrer" href="https://creativecommons.org/publicdomain/mark/1.0/?ref=openverse">Public Domain Mark 1.0 <img src="https://mirrors.creativecommons.org/presskit/icons/pd.svg" style="height: 1em; margin-right: 0.125em; display: inline;" /></a>.</p> <!--Image License-->
+<img src="images/meteorshowers.jpg" title="Meteor Showers" class="meteor-filter" height="300" width="500"> <!--Edited Images-->
+<p class="attribution">"<a rel="noopener noreferrer" href="https://www.flickr.com/photos/115357548@N08/20713070995">Perseid Meteor Shower over the Ocotillo Patch; 8/12/15</a>" by <a rel="noopener noreferrer" href="https://www.flickr.com/photos/115357548@N08">Joshua Tree National Park</a> is marked with <a rel="noopener noreferrer" href="https://creativecommons.org/publicdomain/mark/1.0/?ref=openverse">Public Domain Mark 1.0</a>.</p> <!--Image License-->
 </div>
+
 </body>
 </html>
