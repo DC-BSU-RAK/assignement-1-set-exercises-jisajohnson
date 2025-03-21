@@ -1,0 +1,35 @@
+header{
+    text-align: center; /* Alighned the header to the center */
+}
+
+section{
+    border: 5px solid black;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px; /* Border to separate between HTML & CSS section*/
+}
+
+div{
+    border: 3px solid black;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 15px;  /* To separate each tags for visual representation */
+}
+
+.HTML{
+    background-color: lightgray; /* Changed the bg colour to differentiate between the info and code/result */
+}
+
+pre{
+    border: 3px solid black;
+    padding: 25px;
+    margin: 20px;
+    background-color: white; /* borders and different bg colour for the code */
+}
+
+.Result{
+    border: 3px solid black;
+    padding: 25px;
+    margin: 20px;
+    background-color: white; /* borders and different bg colour for the result */
+} 

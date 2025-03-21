@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS - A Quick Reference Guide</title> <!--The Title of the page-->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -15,60 +16,100 @@
     done HTML & CSS in a while, it will be really useful during those types for you to recap. This guide is based of the knowledge I have
     so far in HTML & CSS.
 </p> <!--A short description about what this page is going to be about-->
+
+<section id="HTML" class="section">
 <h2>HTML Tags</h2>
-<h3>1. Heading</h3> 
-<p> The heading tag are of 6 types, each of them comes in different sizes. It is from &lt;h1&gt; to &lt;h6&gt;.</p>
+<div id="Heading" class="HTML">
+<h3>1. Heading - &lt;h1&gt; to &lt;h6&gt;</h3> 
+<p> The heading tag are of 6 types, each of them comes in different sizes. It is from <code style="color: red;">&lt;h1&gt;</code> to <code style="color: red;">&lt;h6&gt;</code>.</p>
+
+<h4>Code:</h4>
+<pre>
+    <code> 
+        &lt;h1&gt;Heading1&lt;/h1&gt;<!-- &lt; is seen as "<" in the page-->
+        &lt;h2&gt;Heading2&lt;/h2&gt;  <!-- &gt; is seen as ">" in the page-->
+        &lt;h3&gt;Heading3&lt;/h3&gt;
+        &lt;h4&gt;Heading4&lt;/h4&gt;
+        &lt;h5&gt;Heading5&lt;/h5&gt;
+        &lt;h6&gt;Heading6&lt;/h6&gt;
+    </code>
+</pre> <!--Different types of Heading tags are shown-->
+
+<h4>Result:</h4>
+<div class="Result">
 <h1>Heading1</h1>
-<pre><code> &lt;h1&gt;Heading1&lt;/h1&gt;</code></pre> <!-- &lt; is seen as "<" in the page-->
 <h2>Heading2</h2>
-<pre><code>&lt;h2&gt;Heading2&lt;/h2&gt;</code></pre>  <!-- &gt; is seen as ">" in the page-->
 <h3>Heading3</h3>
-<pre><code> &lt;h3&gt;Heading3&lt;/h3&gt;</code></pre>
 <h4>Heading4</h4>
-<pre><code> &lt;h4&gt;Heading4&lt;/h4&gt;</code></pre>
 <h5>Heading5</h5>
-<pre><code> &lt;h5&gt;Heading5&lt;/h5&gt;</code></pre>
 <h6>Heading6</h6>
-<pre><code> &lt;h6&gt;Heading6&lt;/h6&gt;</code></pre> <!--Different types of Heading tags are shown-->
+</div>
 <p>We can use different heading sizes according to the requirement.<br>
-    The Heading Tag ends with h6 after that it will be shown in normal text. 
+   The Heading Tag ends with h6 after that it will be shown in normal text. 
 </p>
 </div>
-<h3>2. Paragraph</h3>
-<p>The &lt;p&gt; tag is used to write paragraphs. It basically helps in separating the writing into paragraphs</p>
-<p>Roses are red, Violets are blue  <!--Example for paragraph tag-->
-</p>
+
+<div id="Paragraph" class="HTML">
+<h3>2. Paragraph - &lt;p&gt;</h3>
+<p>The <code style="color: red;">&lt;p&gt; </code> is used to write paragraphs. It basically helps in separating the writing into paragraphs</p>
+
+<h4>Code:</h4>
 <pre><code>
-    &lt;p&gt;
-    Roses are red, Violets are blue       <!--This is the code for the example-->
-    &lt;/p&gt;
+&lt;p&gt; Roses are red, Violets are blue &lt;/p&gt;       <!--This is the code for the example-->
 </code></pre>
-<p>The speciality of p tag is that, even if it is written in next line, it will show in one line even if there is extra space more than
-    the default space it will be omitted.
-</p>
-<p>
-    Roses are                      red,  <!-- Example of p tag in a different scenario -->
-    Violets are blue
-</p>
+
+<h4>Result:</h4>
+<div class="Result">
+    <p> Roses are red, Violets are blue </p> <!--Example for paragraph tag-->
+</div>
+
+<p>The speciality of<code style="color: red;">&lt;p&gt;</code> tag is that, even if it is written in next line, it will show in one line even if there is extra space more than
+    the default space it will be omitted. </p>
+
+<h4>Code:</h4>
 <pre><code>
-    &lt;p&gt;
-    Roses are                      red,
-    Violets are blue
-    &lt;/p&gt;
-</code></pre>
-<h3>3. Italics</h3>
-<p>The italics tag is used to make a paragraph in italics.</p> 
-<i>Lorem ipsum dolor sit amet consectetur adipisicing elit.                 <!-- An example for italics tag-->
-    Rerum fugiat voluptate eum impedit consequuntur provident vitae, neque nulla. 
-    Quidem inventore et illo earum sequi perferendis corporis excepturi perspiciatis quod voluptates!</i>
+    &lt;p&gt;Roses are                      red,
+    Violets are blue&lt;/p&gt; 
+</code></pre> <!--Code for p tag-->
+
+<h4>Result:</h4>
+<div class="Result">
+<p>Roses are                      red,  <!-- Example of p tag in a different scenario -->
+   Violets are blue </p>
+</div>
+</div>
+
+<div id="Italics" class="HTML">
+<h3>3. Italics - &lt;i&gt;</h3>
+<p>The italics tag is used to make a paragraph in italics.</p>
+
+<h4>Code:</h4>
 <pre><code>&lt;i&gt; Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Rerum fugiat voluptate eum impedit consequuntur provident vitae, neque nulla. 
     Quidem inventore et illo earum sequi perferendis corporis excepturi perspiciatis quod voluptates! &lt;/i&gt;</code></pre> <!--The code for the example-->
-<h3>4. Bold</h3>
+
+<h4>Result:</h4>
+<div class="Result">
+<i>Lorem ipsum dolor sit amet consectetur adipisicing elit.                 <!-- An example for italics tag-->
+    Rerum fugiat voluptate eum impedit consequuntur provident vitae, neque nulla. 
+    Quidem inventore et illo earum sequi perferendis corporis excepturi perspiciatis quod voluptates!</i>
+</div>
+</div>
+
+<div id="Bold" class="HTML">
+<h3>4. Bold - &lt;b&gt;</h3>
 <p>The bold tag is used to give more bolder look to the text.</p>
-<p>I like <b>Roses.</b></p> <!--Example for the bold tag-->
+
+<h4>Code:</h4>
 <pre><code>&lt;p&gt;I like &lt;b&gt;Roses.&lt;/b&gt;&lt;/p&gt;</code></pre> <!--Code for the example of bold tag-->
-<p>Here the word "Roses" is seen in bold text with the help of &lt;b&gt; tag.</p>
+
+<h4>Result:</h4>
+<div class="Result">
+<p>I like <b>Roses.</b></p> <!--Example for the bold tag-->
+</div>
+<p>Here the word "Roses" is seen in bold text with the help of <code style="color: red;">&lt;b&gt;</code> tag.</p>
+</div>
+
 <h3>5. Ordered List</h3>
 <p>The &lt;ol&gt; tag is used to make the list in order and it can be ordered alphabetical or numerical.
     With this tag we use the &lt;li&gt; which is called as list to define each item.
@@ -85,6 +126,7 @@
     &lt;li&gt;Book&lt;/li&gt;  <!-- The code for the example-->
 &lt;/ol&gt;
 </code></pre>
+
 <h3>6. Unordered List</h3>
 <p> The &lt;ul&gt; tag is used to make an unordered list. It is mostly shown in bullets. We use the &lt;li&gt; tag here as well since it is a list.</p>
 <ul>
@@ -99,6 +141,7 @@
     &lt;li&gt;Chocolate&lt;/li&gt;   <!-- The code for the example-->
 &lt;/ul&gt;  
 </code></pre>
+
 <h3>7. Image</h3>
 <p> The &lt;img&gt; tag is used to show images. We can insert images in the webpage.<br>
     The img tag has two attributes:
@@ -107,13 +150,16 @@
 </p>
 <img src="https://images.unsplash.com/photo-1741527383649-b0d7c54d12ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Group of flowers" height="400" width="300">
 <pre><code>
-    &lt;img src="https://images.unsplash.com/photo-1741527383649-b0d7c54d12ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Group of flowers" height="400" width="300"&gt;
+    &lt;img src="https://images.unsplash.com/photo-1741527383649-b0d7c54d12ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    alt="Group of flowers" height="400" width="300"&gt;
 </code></pre>
 <p> Here the height and width is used to define the size of the image.</p>  <!-- About the image tag-->
+
 <h3>8. Anchor</h3>
 <p>Anchors are defined using &lt;a&gt; tag with href attribute which shows the link.</p>
 <a href="https://www.google.com">Google</a>
 <pre><code>&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;</code></pre>
+
 <h3>9. Line Break</h3>
 <p>The &lt;br&gt; tag is used for line breaks. It shows the text in the next line.</p>
 
@@ -123,9 +169,11 @@ Violets are blue</p>
 &lt;p&gt;Roses are red, &lt;br&gt;
 Violets are blue&lt;/p&gt;
 </code></pre>
+
 <h3>10. Button</h3>
 <p>The &lt;button&gt; tag is used as a button that you can click.</p>
 <button type="button">Print</button>
 <pre><code>&lt;button type="button"&gt;Print&lt;/button&gt;</code></pre>
+</section>
 </body>
 </html>
