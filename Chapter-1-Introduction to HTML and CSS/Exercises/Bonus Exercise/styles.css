@@ -16,7 +16,7 @@ div{
     border-radius: 15px;  /* To separate each tags for visual representation */
 }
 
-.HTML{
+.HTML,.CSS{
     background-color: lightgray; /* Changed the bg colour to differentiate between the info and code/result */
 }
 
