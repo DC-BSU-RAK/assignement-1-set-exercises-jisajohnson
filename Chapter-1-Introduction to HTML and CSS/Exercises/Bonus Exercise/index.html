@@ -54,6 +54,7 @@
 <p>The <code style="color: red;">&lt;p&gt; </code> is used to write paragraphs. It basically helps in separating the writing into paragraphs</p>
 
 <h4>Code:</h4>
+
 <pre><code>
 &lt;p&gt; Roses are red, Violets are blue &lt;/p&gt;       <!--This is the code for the example-->
 </code></pre>
@@ -68,20 +69,24 @@
 
 <h4>Code:</h4>
 <pre><code>
-    &lt;p&gt;Roses are                      red,
-    Violets are blue&lt;/p&gt; 
+    &lt;p&gt;
+        Roses are                      red,
+        Violets are blue
+    &lt;/p&gt; 
 </code></pre> <!--Code for p tag-->
 
 <h4>Result:</h4>
 <div class="Result">
-<p>Roses are                      red,  <!-- Example of p tag in a different scenario -->
-   Violets are blue </p>
+<p>
+    Roses are                      red,  <!-- Example of p tag in a different scenario -->
+    Violets are blue 
+</p>
 </div>
 </div>
 
 <div id="Italics" class="HTML">
 <h3>3. Italics - &lt;i&gt;</h3>
-<p>The italics tag is used to make a paragraph in italics.</p>
+<p>The <code style="color: red;">i</code> tag is used to make a paragraph in italics.</p>
 
 <h4>Code:</h4>
 <pre><code>&lt;i&gt; Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -98,7 +103,7 @@
 
 <div id="Bold" class="HTML">
 <h3>4. Bold - &lt;b&gt;</h3>
-<p>The bold tag is used to give more bolder look to the text.</p>
+<p>The <code style="color: red;">b</code> tag is used to give more bolder look to the text.</p>
 
 <h4>Code:</h4>
 <pre><code>&lt;p&gt;I like &lt;b&gt;Roses.&lt;/b&gt;&lt;/p&gt;</code></pre> <!--Code for the example of bold tag-->
@@ -110,15 +115,13 @@
 <p>Here the word "Roses" is seen in bold text with the help of <code style="color: red;">&lt;b&gt;</code> tag.</p>
 </div>
 
-<h3>5. Ordered List</h3>
-<p>The &lt;ol&gt; tag is used to make the list in order and it can be ordered alphabetical or numerical.
-    With this tag we use the &lt;li&gt; which is called as list to define each item.
+<div id="OL" class="HTML">
+<h3>5. Ordered List - &lt;ol&gt;</h3>
+<p>The <code style="color: red;">&lt;ol&gt;</code> tag is used to make the list in order and it can be ordered alphabetical or numerical.
+    With this tag we use the <code style="color: red;">&lt;li&gt;</code> which is called as list to define each item.
 </p>
-<ol>
-    <li>Pencil</li>
-    <li>Pen</li>
-    <li>Book</li>            <!--Example for Ordered List-->
-</ol>
+
+<h4>Code:</h4>
 <pre><code>
 &lt;ol&gt;
     &lt;li&gt;Pencil&lt;/li&gt;
@@ -127,53 +130,103 @@
 &lt;/ol&gt;
 </code></pre>
 
-<h3>6. Unordered List</h3>
-<p> The &lt;ul&gt; tag is used to make an unordered list. It is mostly shown in bullets. We use the &lt;li&gt; tag here as well since it is a list.</p>
+<h4>Result:</h4>
+<div class="Result">
+<ol>
+    <li>Pencil</li>
+    <li>Pen</li>
+    <li>Book</li>            <!--Example for Ordered List-->
+</ol>
+</div>
+</div>
+
+<div id="UL" class="HTML">
+<h3>6. Unordered List - &lt;ul&gt;</h3>
+<p> The <code style="color: red;">&lt;ul&gt;</code> tag is used to make an unordered list. It is mostly shown in bullets. We use the <code style="color: red;"> &lt;li&gt;</code> tag here as well since it is a list.</p>
+
+<h4>Code:</h4>
+<pre><code>
+    &lt;ul&gt;
+        &lt;li&gt;Cake&lt;/li&gt;
+        &lt;li&gt;Ice Cream&lt;/li&gt;
+        &lt;li&gt;Chocolate&lt;/li&gt;   <!-- The code for the example-->
+    &lt;/ul&gt;  
+</code></pre>
+
+<h4>Result:</h4>
+<div class="Result">
 <ul>
     <li>Cake</li>
     <li>Ice Cream</li>
     <li>Chocolate</li>         <!--Example for Unordered List-->
 </ul>
-<pre><code>
-&lt;ul&gt;
-    &lt;li&gt;Cake&lt;/li&gt;
-    &lt;li&gt;Ice Cream&lt;/li&gt;
-    &lt;li&gt;Chocolate&lt;/li&gt;   <!-- The code for the example-->
-&lt;/ul&gt;  
-</code></pre>
+</div>
+</div>
 
-<h3>7. Image</h3>
-<p> The &lt;img&gt; tag is used to show images. We can insert images in the webpage.<br>
+<div id="Image" class="HTML">
+<h3>7. Image - &lt;img&gt;</h3>
+<p> The <code style="color: red;">&lt;img&gt;</code> tag is used to show images. We can insert images in the webpage.<br>
     The img tag has two attributes:
     <ol><li>src: It shows the source/link of the image.</li>
-        <li>alt: It is the alternate text for the image, in case if the image cannot be seen by the viewer.</li></ol>
-</p>
-<img src="https://images.unsplash.com/photo-1741527383649-b0d7c54d12ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Group of flowers" height="400" width="300">
+        <li>alt: It is the alternate text for the image, in case if the image cannot be seen by the viewer.</li>
+    </ol>
+</p> <!--Information about the img tag-->
+
+<h4>Code:</h4>
 <pre><code>
-    &lt;img src="https://images.unsplash.com/photo-1741527383649-b0d7c54d12ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-    alt="Group of flowers" height="400" width="300"&gt;
-</code></pre>
-<p> Here the height and width is used to define the size of the image.</p>  <!-- About the image tag-->
+&lt;img src="https://images.unsplash.com/photo-1741527383649-b0d7c54d12ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8
+fA%3D%3D" alt="Group of flowers" height="400" width="300"&gt; 
+</code></pre> <!--Code for the img tag-->
+<p> Here the height and width is used to define the size of the image.</p>  <!-- About the height and width-->
 
-<h3>8. Anchor</h3>
-<p>Anchors are defined using &lt;a&gt; tag with href attribute which shows the link.</p>
-<a href="https://www.google.com">Google</a>
-<pre><code>&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;</code></pre>
+<h4>Result:</h4>
+<div class="Result">
+<img src="https://images.unsplash.com/photo-1741527383649-b0d7c54d12ef?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Group of flowers" height="400" width="300">
+</div> <!--Result for the img tag-->
+</div>
 
-<h3>9. Line Break</h3>
-<p>The &lt;br&gt; tag is used for line breaks. It shows the text in the next line.</p>
+<div id="Anchor" class="HTML">
+<h3>8. Anchor - &lt;a&gt;</h3>
+<p>Anchors are defined using <code style="color: red;">&lt;a&gt;</code> tag with href attribute which shows the link.</p>
 
-<p>Roses are red,<br>
-Violets are blue</p>
+<h4>Code:</h4>
+<pre><code>&lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;</code></pre> <!--Code for the anchor tag-->
+
+<h4>Result:</h4>
+<div class="Result">
+    <a href="https://www.google.com">Google</a> <!--Result for the anchor tag-->
+</div>
+</div>
+
+<div id="Break" class="HTML">
+<h3>9. Line Break - &lt;br&gt;</h3>
+<p>The <code style="color: red;">&lt;br&gt;</code> tag is used for line breaks. It shows the text in the next line.</p>
+
+<h4>Code:</h4>
 <pre><code>
 &lt;p&gt;Roses are red, &lt;br&gt;
 Violets are blue&lt;/p&gt;
-</code></pre>
+</code></pre> <!--Code for the br tag-->
 
-<h3>10. Button</h3>
-<p>The &lt;button&gt; tag is used as a button that you can click.</p>
-<button type="button">Print</button>
-<pre><code>&lt;button type="button"&gt;Print&lt;/button&gt;</code></pre>
+<h4>Result:</h4>
+<div class="Result">
+    <p>Roses are red,<br>
+        Violets are blue</p>
+</div> <!--Result for the br tag-->
+</div>
+
+<div id="button" class="HTML">
+<h3>10. Button - &lt;button&gt;</h3>
+<p>The <code style="color: red;">&lt;button&gt;</code> tag is used as a button that you can click.</p>
+
+<h4>Code:</h4>
+<pre><code>&lt;button type="button"&gt;Print&lt;/button&gt;</code></pre> <!--Code for the button tag-->
+
+<h4>Result:</h4>
+<div class="Result">
+    <button type="button">Print</button> 
+</div> <!--Result for the button tag-->
+</div>
 </section>
 </body>
 </html>
