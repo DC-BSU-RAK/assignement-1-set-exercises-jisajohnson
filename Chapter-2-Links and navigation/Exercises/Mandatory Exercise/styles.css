@@ -41,3 +41,7 @@ section{
   background-color: hsla(187, 100%, 48%, 0.8);
   border-radius: 30px; /* sections have borders and opacity feel wher the user can see a small bit of the background image */
 }
+
+footer{
+  text-align: center; /* Aligned the footer to the center */
+}
