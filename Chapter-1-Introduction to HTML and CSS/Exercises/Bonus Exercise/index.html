@@ -227,7 +227,7 @@ Violets are blue&lt;/p&gt;
     <button type="button">Print</button> 
 </div> <!--Result for the button tag-->
 </div>
-</section>
+</section> <!--End of the HTML section-->
 
 <section id="CSS" class="section">
     <h2>CSS Properties</h2> <!--Heading for CSS-->
@@ -285,11 +285,11 @@ Violets are blue&lt;/p&gt;
             body{
                 font-family: Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
             }
-        </code></pre>
+        </code></pre> <!--Code for the font-family-->
         <h4>Result:</h4>
         <div class="Result" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
             This font is different from the default font.
-        </div>
+        </div> <!--Result of the code-->
     </div>
 
     <div id="text-align" class="CSS">
@@ -300,12 +300,82 @@ Violets are blue&lt;/p&gt;
             p{
                 text-align: center;
             }
-        </code></pre>
+        </code></pre> <!--Code for the font-family-->
         <h4>Result:</h4>
         <div class="Result" style="text-align: center;">
             This text is in the center.
-        </div>
+        </div> <!--Result of the code-->
     </div>
-</section>
+
+    <div id="margin" class="CSS">
+        <h3>6. margin</h3>
+        <p>The <code style="color: red;">margin</code> property is used for the spacing of the white space around the element.</p>
+        <h4>Code:</h4>
+        <pre><code>
+            p{
+                margin: 50px;
+            }
+        </code></pre> <!--Code for margin-->
+        <h4>Result:</h4>
+        <div class="Result">
+            <p style="margin: 50px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores facilis mollitia laudantium error corporis nulla exercitationem, dolore incidunt temporibus, odit accusamus eaque amet provident. Praesentium unde expedita architecto molestias ipsum.</p>
+        </div> <!--Result of the code-->
+        <p>It gives equal spacing in all 4 sides.</p>
+        <p>There is also other properties, in case you only want to give spacing to one side or more or use different pixels for each side, you can use:</p>
+        <ul>
+            <li><code style="color: red;">margin-top</code></li>
+            <li><code style="color: red;">margin-bottom</code></li>
+            <li><code style="color: red;">margin-right</code></li>
+            <li><code style="color: red;">margin-left</code></li> <!--Types of margin in CSS-->
+        </ul> 
+    </div>
+
+    <div id="filter" class="CSS">
+        <h3>7. filter (Image Filters)</h3>
+        <p>The <code style="color: red;">filter</code> property is used to give filter to the images.</p>
+        <h4>Code:</h4>
+        <pre><code>
+            img{
+                filter: grayscale(2.0);
+            }
+        </code></pre> <!--Code for using the filters-->
+        <h4>Result:</h4>
+        <div class="Result">
+            <img src="https://images.unsplash.com/photo-1742538703467-00cd49d8a8d4?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="500" width="300" style="filter: grayscale(2.0);">
+        </div> <!--Result after you use the filters-->
+        <p>Note: You can also try it, with other filter such as:</p>
+        <ul>
+            <li><code style="color: red;">blur()</code></li>
+            <li><code style="color: red;">brightness()</code></li>
+            <li><code style="color: red;">grayscale()</code></li>
+            <li><code style="color: red;">sepia()</code></li>
+            <li><code style="color: red;">drop-shadow()</code></li>
+            <li><code style="color: red;">hue-rotate()</code></li>
+            <li><code style="color: red;">opacity()</code></li>
+            <li><code style="color: red;">invert()</code></li>
+            <li><code style="color: red;">saturate()</code></li>
+            <li><code style="color: red;">contrast()</code></li>
+        </ul> <!--Filters that are present in CSS -->
+    </div>
+    
+    <div id="font-size" class="CSS">
+        <h3>8. font-size </h3>
+        <p>The <code style="color: red;">font-size</code> property is used to set the size of the text.</p>
+        <h4>Code:</h4>
+        <pre><code>
+            p{
+                font-size: large;
+            }
+        </code></pre> <!--The code to change the font size-->
+        <h4>Result:</h4>
+        <div class="Result">
+            <p style="font-size: large;">You can see the size of the text is bigger than the default text size.</p>
+        </div> <!--Result of the code-->
+    </div>
+</section> <!--End of the CSS section-->
+<footer>
+    <hr>
+    Copyright &copy; 2025 jisajohnson <!--Footer to add the copyrights-->
+</footer>
 </body>
 </html>

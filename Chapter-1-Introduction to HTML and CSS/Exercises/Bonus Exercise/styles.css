@@ -34,3 +34,7 @@ pre{
     background-color: white;
     border-radius: 0px; /* borders and different bg colour for the result */
 } 
+
+footer{
+    text-align: center; /* Aligned the footer to the center */
+}
