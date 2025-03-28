@@ -1,0 +1,27 @@
+h1{
+    text-align: center; /* Aligned the heading to the center */
+    color:#29376e; /* Changed the colour of the text */
+} 
+
+body{
+    background-color: rgba(117,154,214,255); /* Changed the background colour */
+    margin:100px; /* To center the video to the center and equal spacing in all sides */
+}
+
+video{
+    border: 15px groove #3a477b; /* Gave groove border to the video */
+    max-width: 50%;
+    max-height: 50%; /* made the height and width to 50 */
+    display: block;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    color: rgba(60,71,126,255); /* Changed the colour of the text */
+}
+
+a{
+    color:#33417a; /* Changed the colour of the text */
+    text-decoration: none; /* removed the underline so it matches with copyrights */
+}
