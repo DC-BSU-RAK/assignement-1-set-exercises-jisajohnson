@@ -17,7 +17,7 @@ video{
 }
 
 footer{
-    text-align: center;
+    text-align: center; /* Aligned the text to the center */
     color: rgba(60,71,126,255); /* Changed the colour of the text */
 }
 
