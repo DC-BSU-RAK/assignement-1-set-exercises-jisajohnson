@@ -1,0 +1,32 @@
+body{
+    text-align: center; /* to align the text to the center */
+    margin: 300px; /* spacing for all 4 sides */
+    margin-top: 150px; /* to reduce the spacing for the top margin */
+    background-image: url("https://www.shell.co.uk/shell-service-stations/_jcr_content/root/metadata.shellimg.jpeg/1694195546495/shell-station--new.jpeg"); /* gave a background image */
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; /* to ensure that the image is fit */
+} 
+
+h1{
+    color: silver; /* changed into a colour that blends with the backgroun */
+}
+
+.calculate-box{
+    background-color:hsla(240, 70%, 39%, 0.8); /* gave colour for the container so that it is readable */
+}
+
+div{
+    border: 5px solid black; /* to have thick black borders */
+    background-color:hsla(51, 80%, 62%, 0.8); /* bg colour so it doesn't interfere with the background image, makes it more readable */
+    border-radius: 10px; /* makes the border more curvy */
+    padding: 10px; /* inner spacing */
+    margin: 5px; /* outer spacing between each divs */
+}
+
+button{
+    background-color: rgb(53, 183, 53); /* the button colour has been changed to colour that is used worldwide */
+    padding: 10px 60px; /* for the inner spacing and length */
+    margin: 5px; /* for the outer spacing */
+}
