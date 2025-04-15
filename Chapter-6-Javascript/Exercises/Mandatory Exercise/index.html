@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculate-box">
+        <h1>Petrol Calculator</h1>
+        <div>
+            <label for="Price">Price per Litre (£)</label><br> 
+            <input type="number" id="Price" value="1.72"> <br> <!--It shows 1.72 in the box just in case the price changes the user can change the values-->
+            <label for="Litrespurchased">Liters Purchased</label><br>
+            <input type="number" id="Litrespurchased" value="0.00"><br> <!--It allows the user to input the value-->
+            <button onclick="calculate()"><b>Calculate</b></button> <!--This button is used to calcualte the price and liters purchased-->
+            <p>Total Cost: £0.00</p>
+        </div>
+    </div>
+    <script src="index.js"></script> <!--connected to the script-->
+</body>
+</html>
