@@ -3,9 +3,8 @@ body{
     margin: 300px; /* spacing for all 4 sides */
     margin-top: 150px; /* to reduce the spacing for the top margin */
     background-image: url("https://www.shell.co.uk/shell-service-stations/_jcr_content/root/metadata.shellimg.jpeg/1694195546495/shell-station--new.jpeg"); /* gave a background image */
-
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center; /* to make the background picture aligned to the center */
+    background-repeat: no-repeat; /* to ensure that the bg image doesn't repeat */
     background-size: contain; /* to ensure that the image is fit */
 } 
 
