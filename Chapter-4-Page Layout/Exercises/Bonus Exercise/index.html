@@ -11,17 +11,123 @@
     <header>
         <h1>Web Development - Study Planner</h1>
         <nav>
-            <a href="#Dashboard"> <i class="fa fa-pie-chart"></i> Dashboard</a>
+            <a href="#Dashboard"> <i class="fa fa-pie-chart"></i> Dashboard</a> 
             <a href="#Modules"><i class="fa fa-graduation-cap"></i> Modules</a>
             <a href="#Progress"><i class="fa fa-line-chart"></i> Progress</a>
             <a href="#Timer"><i class="fa fa-clock-o"></i> Timer</a>
             <a href="#Resources"><i class='fa fa-book'></i> Resources</a>
             <a href="#Mydetails"><i class="fa fa-user"></i> My details</a>
-        </nav>
+        </nav> <!--Nav bar to navigate through the study planner-->
     </header>
 
     <main>
+        <div class="row1-box">
+            <section class="learning-box">
+                <h2>Learning Progress</h2>
+                <label for="HTML">HTML</label><br>
+                <progress id="HTML" value="88" max="100">88%</progress><br>
+                <label for="CSS">CSS</label><br>
+                <progress id="CSS" value="75" max="100">75%</progress><br>
+                <label for="JavaScript">JavaScript</label><br>
+                <progress id="JavaScript" value="30" max="100">30%</progress>
+            </section> <!--This section shows the progress done so far-->
 
+            <section class="Things-to-do">
+                <h2>Things-to-do</h2>
+                <ul>
+                    <li>Complete Sololearn: Introduction to HTML</li>
+                    <button>Mark as Done</button>
+                    <li>Complete Sololearn: Introduction to CSS</li>
+                    <button>Mark as Done</button>
+                    <li>Complete Sololearn: Introduction to JavaScript</li>
+                    <button>Mark as Done</button>
+                </ul> <!--This section is for the things that user has to do and if it is done they have to press the button-->
+            </section>
+
+            <section class="Calender">
+                <h2>Calender</h2>
+                <table>
+                    <caption>April 2025</caption>
+                    <tr>
+                        <th>M</th>
+                        <th>T</th>
+                        <th>W</th>
+                        <th>T</th>
+                        <th>F</th>
+                        <th>S</th>
+                        <th>S</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                    </tr> 
+                </table> <!--Created a calender for the user to know the upcoming importatnt dates and how many days they have-->
+            </section>
+        </div>
+
+        <div class="row2-box">
+            <section class="Important-Dates">
+                <h2>Important dates</h2>
+                <ul>
+                    <li>7th April: HTML Basics quiz</li>
+                    <button>Completed</button>
+                    <li>10th April: CSS Project</li>
+                    <button>Completed</button>
+                    <li>21st April: JavaScript Test</li>
+                    <button>Completed</button> <!--Important dates for the student to know that there are upcoming projects and tests-->
+                </ul>
+            </section>
+
+            <section class="Resources">
+                <h2>Resources</h2>
+                <ul>
+                    <li>W3schools</li>
+                    <li>MDN Docs</li>
+                    <li>GeeksforGeeks</li>
+                </ul> <!--resources for the user to learn about html, css and javascript-->
+            </section>
+        </div>
     </main>
+    <footer>
+        <hr>
+        Copyright &copy; Jisa Johnson
+    </footer>
 </body>
 </html>

@@ -1,34 +1,103 @@
 h1{
     text-align: center; /* aligning the heading to the center */
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Changed the font */
+    color: white; /* The heading will be in white */
     text-shadow: 3px 3px 5px purple; /* giving the text shadow effect */
 }
 
 body{
-    background-image: url(kuromi.jpg);
+    background-image: url(kuromi.jpg); /* used an image for the background */
+    color: rgb(75, 4, 75); /* color of the text */
 }
 
 nav{
     height: 100%; /* gives full height */
     width: 200px; /* the width of the sidenav */
     position: fixed; /* position is fixed to make it stay even while scrolling */
-    top: 0; 
-    left: 0;
+    top: 0;  /* to fill the side page with nav bar without space on the top (outer spacing) */
+    left: 0; /* to fill the side without the outer spacing on the left*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    background-color: rgb(219, 178, 243);
+    padding-top: 20px; /* the inner spacing between the nav bar and the text */
+    background-color: rgb(219, 178, 243); /* changed the background colour */
 }
 
 nav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 20px;
-    color: purple;
-    display: block;
-    margin-top: 50px;
+    padding: 8px 8px 8px 32px; /* spacing within the navbar */ 
+    text-decoration: none; /* the default underline of the text is removed */
+    font-size: 20px; /* size of the font */
+    color: purple; /* color of the text */
+    display: block; /*  */
+    margin-top: 50px; /* spacing between each texts */
 }
 
 nav a:hover {
+    color: #fffdfd; /* the color changes when hovered */
+}
+
+div{
+    display: flex; /* to split the content in the same line */
+}
+
+section{
+    border: 5px solid purple; /* border size and color */
+    padding: 25px; /* inner spacing with border and the text */
+    background-color: hsla(283, 72%, 78%, 0.8); /* to make the text more readable and can see the background with the tint effect */
+    border-radius: 30px; /* gives curves to the border */
+}
+
+.learning-box{
+    flex: 2; /* space for the first box in flex */
+    margin: 5px; /* outer spacing */
+    margin-left:200px; /* since the nav bar is in the left, spacing in the left side is needed */
+}
+
+progress{
+    width: 550px; /* makes the width more bigger */
+    height: 50px; /* height is more than the default */
+}
+
+.Things-to-do{
+    flex: 1; /* for the second flex box it is 1 */
+    margin: 5px; /* the outer spacing betweeen each divs */
+}
+
+.Calender{
+    margin: 5px; /* outer spacing */
+    flex: .75; /* for the 3rd flex box the sizing is 0.75 */
+}
+.Calender table{
+    margin: auto; /* it automatically gives the margin which is center */
+}
+
+.Calender table tr{
+    margin: auto; /* gives outer spacing aqutomatically which is center */
+}
+
+.Calender table tr td:hover{
+    color: #fffdfd; /* changes the colour when hovered */
+}
+
+.Important-Dates{
+    flex: 2;
+    margin: 5px;
+    margin-left: 200px;
+}
+
+.Resources{
+    flex: 1;
+    margin:5px;
+}
+
+button{
+    background-color: rgb(167, 70, 197);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+button:hover {
     color: #fffdfd;
+}
+
+footer{
+    text-align: center;
 }
