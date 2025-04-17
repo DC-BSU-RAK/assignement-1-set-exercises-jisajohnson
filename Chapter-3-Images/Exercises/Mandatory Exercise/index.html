@@ -5,42 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Types of Night Sky</title> <!--Title of the page-->
 <style>
+    h1{
+        color: rgb(51, 95, 149);  /* changed the colour of the heading */
+    }
+
     body{
-        text-align: center;  
+        text-align: center;  /* aligned the text to center */
+        background-color: palevioletred; /* changed the bg color */
     } 
-    
+
     .image img {
-        display: inline-block;   
-        margin: 20px;
-        text-align: center;
+        display: inline-block; 
+        margin: 20px; /* outer spacing */
+        text-align: center; /* aligned the text to the center */
     }  
 
     .image img.aurora-filter {
-        filter:hue-rotate(20deg) saturate(1.5) contrast(1.6);
+        filter:hue-rotate(20deg) saturate(1.5) contrast(1.6); /* added filers for the image, this makes the image look more bright */
     }
 
     .image img.milkyway-filter {
-        filter: grayscale(80%) brightness(1.1) contrast(1.2);
+        filter: grayscale(80%) brightness(1.1) contrast(1.2); /* makes the image look more grey */
     }
 
     .image img.meteor-filter {
-        filter: sepia(80%) blur(1px) brightness(1.05);
+        filter: sepia(80%) blur(1px) brightness(1.05); /* makes the image blur and gives sepia effect */
     }
 
     div{
-        border: 3px solid black;
-        width:600px;
-        padding: 25px;
-        margin: 20px auto;
-        border-radius: 20px;
+        background-color: hsla(0, 0%, 99%, 0.771); /* gave the divs a bg color */
+        border: 3px solid black; /* border color and thickness */
+        width:600px; /* overall width of the divs */
+        padding: 25px; /* inner spacing  */
+        margin: 20px auto; /* outer spacing */
+        border-radius: 20px; /* curvy effect */
     }
 </style> <!--Inline styles-->
-<!--Comment on style tag
-    1. the body is aligned to the center
-    2. filters used for aurora image
-    3. filters used for milkyway image
-    4. filters used for meteor image
-    5. div tag is used to give borders for the image-->
+
 </head>
 <body>
 <h1>Beautiful Night Skies</h1> <!--Heading for the page-->
