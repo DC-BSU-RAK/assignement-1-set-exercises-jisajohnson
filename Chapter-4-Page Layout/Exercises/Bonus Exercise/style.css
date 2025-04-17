@@ -78,26 +78,26 @@ progress{
 }
 
 .Important-Dates{
-    flex: 2;
-    margin: 5px;
-    margin-left: 200px;
+    flex: 2; /* for the row 2, the first flex box sizing is given as 2 */
+    margin: 5px; /* spacing between each sections */
+    margin-left: 200px; /* outer spacing towards the left */
 }
 
 .Resources{
-    flex: 1;
-    margin:5px;
+    flex: 1; /* for row 2, 2nd flex box sizing is given as 1 */
+    margin:5px; /* outer spacing between each sections */
 }
 
 button{
-    background-color: rgb(167, 70, 197);
-    border-radius: 2px;
-    margin: 5px;
+    background-color: rgb(167, 70, 197); /* bg color for the button */
+    border-radius: 2px; /* to make the button a bit curvy */
+    margin: 5px; /* outer spacing */
 }
 
 button:hover {
-    color: #fffdfd;
+    color: #fffdfd; /* hovering effect */
 }
 
 footer{
-    text-align: center;
+    text-align: center; /* aligns the text to the center */
 }
